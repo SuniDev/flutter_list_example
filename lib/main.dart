@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_list_demo/default_list_page.dart';
 import 'package:flutter_list_demo/builder_list_page.dart';
+import 'package:flutter_list_demo/separated_list_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,12 +20,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
 
 class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,10 +51,19 @@ class HomePage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => BuilderListPage()),
+                  MaterialPageRoute(builder: (context) => const BuilderListPage()),
                 );
               },
               child: const Text('Builder ListView Page'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const SeparatedListPage()),
+                );
+              },
+              child: const Text('SeparatorBuilder ListView Page'),
             ),
           ],
         ),
