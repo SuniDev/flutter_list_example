@@ -17,6 +17,7 @@ class DemoListTile extends StatelessWidget {
   }
 }
 
+// (c) ListData - ListView Data Class
 class ListData {
   final int count;
   final String title;

@@ -1,4 +1,5 @@
 # [Flutter] ListView Demo
 
 ## Blog
-[[Flutter] Default ListView (with. LIst<Widget>)](https://sunidev.tistory.com/70)
+[[Flutter] ListView (1) 기본형 (with. LIst<Widget>)](https://sunidev.tistory.com/70)
+[[Flutter] ListView (2) ListView.Builder](https://sunidev.tistory.com/71)
