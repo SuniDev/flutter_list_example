@@ -33,7 +33,7 @@ class _SeparatedListPageState extends State<SeparatedListPage> {
           itemBuilder: (BuildContext context, int index) {
             return DemoListTile(datas[index]);
           },
-          //  Divider 는 구분자ㄹ 사용.
+          //  Divider 로 구분자 추가.
           separatorBuilder: (BuildContext context, int index) => const Divider(),
         ),
       ),
