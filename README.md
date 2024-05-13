@@ -1,4 +1,4 @@
-# [Flutter] ListView Demo
+# [Flutter] ListView Example
 
 ## Blog
 [[Flutter] ListView (1) 기본형](https://sunidev.tistory.com/70) <br>
